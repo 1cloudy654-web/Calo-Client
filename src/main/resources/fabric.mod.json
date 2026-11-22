@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "caloclient",
+  "version": "${version}",
+  "name": "Calo Client",
+  "description": "A customizable visual client interface for Minecraft 1.21.11.",
+  "authors": ["Calo"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.calo.client.CaloClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
